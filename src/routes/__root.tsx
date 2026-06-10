@@ -87,6 +87,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Discover thoughtful, premium goods made to last." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "LUXE — Considered objects for refined living" },
+      { name: "twitter:description", content: "Discover thoughtful, premium goods made to last." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b168798-488e-4dc0-84d5-0d204df274e0/id-preview-d500a197--0343c757-df10-4b6b-b819-98cede285323.lovable.app-1781069510192.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3b168798-488e-4dc0-84d5-0d204df274e0/id-preview-d500a197--0343c757-df10-4b6b-b819-98cede285323.lovable.app-1781069510192.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
